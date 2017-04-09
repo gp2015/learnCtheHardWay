@@ -2,7 +2,7 @@
 
 /* Warning: This program is wrong on purpose. */
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
     int age = 10;
     int height;
