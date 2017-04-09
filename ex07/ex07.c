@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
     float power = 2.345f;
     double super_power = 56789.4532;
     char initial = 'C';
+    // Strings in C are just arrays of chars
     char first_name[] = "George";
     char last_name[] = "Perez";
 
