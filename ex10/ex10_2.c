@@ -15,6 +15,12 @@ int main(int argc, char *argv[])
 	int i = 0;
 	for (i = 0; argv[1][i] != '\0'; i++) {
 		char letter = tolower(argv[1][i]);
+		// or - 32 to make uppercase, +32 to make lowercase
+		// this will only work with uppercase input
+		// char letter = argv[1][i] + 32;
+
+		// this will only work with lowercase input
+		// char letter = argv[1]i] - 32;
 
 		switch (letter) {
 			case 'a':
